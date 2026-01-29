@@ -13,11 +13,14 @@ In Module 3, we used logistic regression to predict the probability of default u
 
 A) Fit a logistic regression model that uses income and balance to predict default.
 Using the validation set approach, estimate the test error of model in (a). In order to do this, you must perform the following steps:
+
 B) Split the sample set into a training set and a validation set.
 Fit a multiple logistic regression model using only the training observations.
 Obtain a prediction of default status for each individual in the validation set by computing the posterior probability of default for that individual, and classifying the individual to the default category if the posterior probability is greater than 0.5.
+
 C) Compute the validation set error, which is the fraction of the observations in the validation set that are misclassified.
 Repeat the process in (b) using LOOCV to split of the observations into a training set and a validation set. Comment on the results obtained.
+
 D) Repeat the process in (b) using k-fold (with k=5) to split of the observations into a training set and a validation set. Comment on the results obtained.
 
 Problem 2
